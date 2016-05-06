@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE82608C176B072900F004D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82608B176B072900F004D5 /* UIKit.framework */; };
+		CE82608E176B072900F004D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82608D176B072900F004D5 /* Foundation.framework */; };
+		CE826090176B072900F004D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82608F176B072900F004D5 /* CoreGraphics.framework */; };
+		CE826096176B072900F004D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE826094176B072900F004D5 /* InfoPlist.strings */; };
+		CE826098176B072900F004D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE826097176B072900F004D5 /* main.m */; };
+		CE82609C176B072900F004D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82609B176B072900F004D5 /* AppDelegate.m */; };
+		CE82609E176B072900F004D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE82609D176B072900F004D5 /* Default.png */; };
+		CE8260A0176B072900F004D5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE82609F176B072900F004D5 /* Default@2x.png */; };
+		CE8260A2176B072900F004D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8260A1176B072900F004D5 /* Default-568h@2x.png */; };
+		CE8260A5176B072900F004D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8260A4176B072900F004D5 /* ViewController.m */; };
+		CE8260A8176B072900F004D5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8260A6176B072900F004D5 /* ViewController.xib */; };
+		CE8260B0176B072900F004D5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8260AF176B072900F004D5 /* SenTestingKit.framework */; };
+		CE8260B1176B072900F004D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82608B176B072900F004D5 /* UIKit.framework */; };
+		CE8260B2176B072900F004D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82608D176B072900F004D5 /* Foundation.framework */; };
+		CE8260BA176B072900F004D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8260B8176B072900F004D5 /* InfoPlist.strings */; };
+		CE8260BD176B072900F004D5 /* Remote_Access_GarageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8260BC176B072900F004D5 /* Remote_Access_GarageTests.m */; };
+		CE8260C9176C491B00F004D5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8260C8176C491B00F004D5 /* background.png */; };
+		CEF8BEED176D4A070073A95B /* iosabg57.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF8BEEC176D4A070073A95B /* iosabg57.png */; };
+		CEF8BEEF176D4A0D0073A95B /* iosabg114.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF8BEEE176D4A0D0073A95B /* iosabg114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8260B3176B072900F004D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE826080176B072900F004D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE826087176B072900F004D5;
+			remoteInfo = "Remote Access Garage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE826088176B072900F004D5 /* ABG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE82608B176B072900F004D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE82608D176B072900F004D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE82608F176B072900F004D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE826093176B072900F004D5 /* Remote Access Garage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remote Access Garage-Info.plist"; sourceTree = "<group>"; };
+		CE826095176B072900F004D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE826097176B072900F004D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE826099176B072900F004D5 /* Remote Access Garage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Remote Access Garage-Prefix.pch"; sourceTree = "<group>"; };
+		CE82609A176B072900F004D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE82609B176B072900F004D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE82609D176B072900F004D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE82609F176B072900F004D5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE8260A1176B072900F004D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE8260A3176B072900F004D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE8260A4176B072900F004D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE8260A7176B072900F004D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CE8260AE176B072900F004D5 /* ABGTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABGTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8260AF176B072900F004D5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE8260B7176B072900F004D5 /* Remote Access GarageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remote Access GarageTests-Info.plist"; sourceTree = "<group>"; };
+		CE8260B9176B072900F004D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8260BB176B072900F004D5 /* Remote_Access_GarageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Remote_Access_GarageTests.h; sourceTree = "<group>"; };
+		CE8260BC176B072900F004D5 /* Remote_Access_GarageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remote_Access_GarageTests.m; sourceTree = "<group>"; };
+		CE8260C8176C491B00F004D5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		CEF8BEEC176D4A070073A95B /* iosabg57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iosabg57.png; sourceTree = "<group>"; };
+		CEF8BEEE176D4A0D0073A95B /* iosabg114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iosabg114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE826085176B072900F004D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE82608C176B072900F004D5 /* UIKit.framework in Frameworks */,
+				CE82608E176B072900F004D5 /* Foundation.framework in Frameworks */,
+				CE826090176B072900F004D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8260AA176B072900F004D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8260B0176B072900F004D5 /* SenTestingKit.framework in Frameworks */,
+				CE8260B1176B072900F004D5 /* UIKit.framework in Frameworks */,
+				CE8260B2176B072900F004D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE82607F176B072900F004D5 = {
+			isa = PBXGroup;
+			children = (
+				CE826091176B072900F004D5 /* Remote Access Garage */,
+				CE8260B5176B072900F004D5 /* Remote Access GarageTests */,
+				CE82608A176B072900F004D5 /* Frameworks */,
+				CE826089176B072900F004D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE826089176B072900F004D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE826088176B072900F004D5 /* ABG.app */,
+				CE8260AE176B072900F004D5 /* ABGTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE82608A176B072900F004D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE82608B176B072900F004D5 /* UIKit.framework */,
+				CE82608D176B072900F004D5 /* Foundation.framework */,
+				CE82608F176B072900F004D5 /* CoreGraphics.framework */,
+				CE8260AF176B072900F004D5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE826091176B072900F004D5 /* Remote Access Garage */ = {
+			isa = PBXGroup;
+			children = (
+				CE82609A176B072900F004D5 /* AppDelegate.h */,
+				CE82609B176B072900F004D5 /* AppDelegate.m */,
+				CE8260A3176B072900F004D5 /* ViewController.h */,
+				CE8260A4176B072900F004D5 /* ViewController.m */,
+				CE8260A6176B072900F004D5 /* ViewController.xib */,
+				CE826092176B072900F004D5 /* Supporting Files */,
+			);
+			path = "Remote Access Garage";
+			sourceTree = "<group>";
+		};
+		CE826092176B072900F004D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8BEEE176D4A0D0073A95B /* iosabg114.png */,
+				CEF8BEEC176D4A070073A95B /* iosabg57.png */,
+				CE8260C8176C491B00F004D5 /* background.png */,
+				CE826093176B072900F004D5 /* Remote Access Garage-Info.plist */,
+				CE826094176B072900F004D5 /* InfoPlist.strings */,
+				CE826097176B072900F004D5 /* main.m */,
+				CE826099176B072900F004D5 /* Remote Access Garage-Prefix.pch */,
+				CE82609D176B072900F004D5 /* Default.png */,
+				CE82609F176B072900F004D5 /* Default@2x.png */,
+				CE8260A1176B072900F004D5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8260B5176B072900F004D5 /* Remote Access GarageTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8260BB176B072900F004D5 /* Remote_Access_GarageTests.h */,
+				CE8260BC176B072900F004D5 /* Remote_Access_GarageTests.m */,
+				CE8260B6176B072900F004D5 /* Supporting Files */,
+			);
+			path = "Remote Access GarageTests";
+			sourceTree = "<group>";
+		};
+		CE8260B6176B072900F004D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8260B7176B072900F004D5 /* Remote Access GarageTests-Info.plist */,
+				CE8260B8176B072900F004D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE826087176B072900F004D5 /* ABG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8260C0176B072900F004D5 /* Build configuration list for PBXNativeTarget "ABG" */;
+			buildPhases = (
+				CE826084176B072900F004D5 /* Sources */,
+				CE826085176B072900F004D5 /* Frameworks */,
+				CE826086176B072900F004D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABG;
+			productName = "Remote Access Garage";
+			productReference = CE826088176B072900F004D5 /* ABG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8260AD176B072900F004D5 /* ABGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8260C3176B072900F004D5 /* Build configuration list for PBXNativeTarget "ABGTests" */;
+			buildPhases = (
+				CE8260A9176B072900F004D5 /* Sources */,
+				CE8260AA176B072900F004D5 /* Frameworks */,
+				CE8260AB176B072900F004D5 /* Resources */,
+				CE8260AC176B072900F004D5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8260B4176B072900F004D5 /* PBXTargetDependency */,
+			);
+			name = ABGTests;
+			productName = "Remote Access GarageTests";
+			productReference = CE8260AE176B072900F004D5 /* ABGTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE826080176B072900F004D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = user;
+			};
+			buildConfigurationList = CE826083176B072900F004D5 /* Build configuration list for PBXProject "ABG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE82607F176B072900F004D5;
+			productRefGroup = CE826089176B072900F004D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE826087176B072900F004D5 /* ABG */,
+				CE8260AD176B072900F004D5 /* ABGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE826086176B072900F004D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE826096176B072900F004D5 /* InfoPlist.strings in Resources */,
+				CE82609E176B072900F004D5 /* Default.png in Resources */,
+				CE8260A0176B072900F004D5 /* Default@2x.png in Resources */,
+				CE8260A2176B072900F004D5 /* Default-568h@2x.png in Resources */,
+				CE8260A8176B072900F004D5 /* ViewController.xib in Resources */,
+				CE8260C9176C491B00F004D5 /* background.png in Resources */,
+				CEF8BEED176D4A070073A95B /* iosabg57.png in Resources */,
+				CEF8BEEF176D4A0D0073A95B /* iosabg114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8260AB176B072900F004D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8260BA176B072900F004D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE8260AC176B072900F004D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE826084176B072900F004D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE826098176B072900F004D5 /* main.m in Sources */,
+				CE82609C176B072900F004D5 /* AppDelegate.m in Sources */,
+				CE8260A5176B072900F004D5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8260A9176B072900F004D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8260BD176B072900F004D5 /* Remote_Access_GarageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8260B4176B072900F004D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE826087176B072900F004D5 /* ABG */;
+			targetProxy = CE8260B3176B072900F004D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE826094176B072900F004D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE826095176B072900F004D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE8260A6176B072900F004D5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8260A7176B072900F004D5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CE8260B8176B072900F004D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8260B9176B072900F004D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8260BE176B072900F004D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE8260BF176B072900F004D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8260C1176B072900F004D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Access Garage/Remote Access Garage-Prefix.pch";
+				INFOPLIST_FILE = "Remote Access Garage/Remote Access Garage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = ABG;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE8260C2176B072900F004D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Access Garage/Remote Access Garage-Prefix.pch";
+				INFOPLIST_FILE = "Remote Access Garage/Remote Access Garage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = ABG;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE8260C4176B072900F004D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remote Access Garage.app/Remote Access Garage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Access Garage/Remote Access Garage-Prefix.pch";
+				INFOPLIST_FILE = "Remote Access GarageTests/Remote Access GarageTests-Info.plist";
+				PRODUCT_NAME = ABGTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE8260C5176B072900F004D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remote Access Garage.app/Remote Access Garage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Access Garage/Remote Access Garage-Prefix.pch";
+				INFOPLIST_FILE = "Remote Access GarageTests/Remote Access GarageTests-Info.plist";
+				PRODUCT_NAME = ABGTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE826083176B072900F004D5 /* Build configuration list for PBXProject "ABG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8260BE176B072900F004D5 /* Debug */,
+				CE8260BF176B072900F004D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8260C0176B072900F004D5 /* Build configuration list for PBXNativeTarget "ABG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8260C1176B072900F004D5 /* Debug */,
+				CE8260C2176B072900F004D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8260C3176B072900F004D5 /* Build configuration list for PBXNativeTarget "ABGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8260C4176B072900F004D5 /* Debug */,
+				CE8260C5176B072900F004D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE826080176B072900F004D5 /* Project object */;
+}
